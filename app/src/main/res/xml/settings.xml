@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Opsi latihan soal" >
+        <ListPreference
+            android:key="prefMaxGrade"
+            android:title="Level Soal"
+            android:summary="Soal latihan dibatasi hingga materi kelas ini"
+            android:entries="@array/list_kelas"
+            android:entryValues="@array/list_kelas_values"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Opsi aplikasi" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="prefAudio"
+            android:summary="Hidupkan efek suara"
+            android:title="Audio" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="prefVibrate"
+            android:summary="Hidupkan efek getar"
+            android:title="Getar" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

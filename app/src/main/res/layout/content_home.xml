@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.alza.android.quiz.activity.HomeActivity"
+    tools:showIn="@layout/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/colorappbackground"
+
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/title"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:id="@+id/quiz"
+                android:layout_width="@dimen/button_main_width"
+                android:layout_height="@dimen/button_main_height"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_test"
+                android:scaleType="fitCenter"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <ImageButton
+                android:id="@+id/grad"
+                android:layout_width="@dimen/button_secondary_width"
+                android:layout_height="@dimen/button_secondary_height"
+                android:background="@drawable/button_grad"
+                android:scaleType="fitCenter"
+                />
+            <ImageButton
+                android:id="@+id/info"
+                android:layout_width="@dimen/button_secondary_width"
+                android:layout_height="@dimen/button_secondary_height"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_info"
+                android:scaleType="fitCenter"
+                />
+
+            <ImageButton
+                android:id="@+id/settings"
+                android:layout_width="@dimen/button_secondary_width"
+                android:layout_height="@dimen/button_secondary_height"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_setting"
+                android:scaleType="fitCenter"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/activity_vertical_margin">
+
+            <ImageButton
+                android:id="@+id/share"
+                android:layout_width="@dimen/button_secondary_width"
+                android:layout_height="@dimen/button_secondary_height"
+                android:actionProviderClass="android.widget.ShareActionProvider"
+                android:background="@drawable/button_share"
+                android:scaleType="fitCenter"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>

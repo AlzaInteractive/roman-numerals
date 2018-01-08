@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+    <string name="app_id">712855996607</string>
+    <string name="package_name">com.alza.quiz.romans</string>
+    <string name="achievement_played_once">CgkIv5GdzN8UEAIQAg</string>
+    <string name="achievement_played_5_times">CgkIv5GdzN8UEAIQAw</string>
+    <string name="achievement_played_10_times">CgkIv5GdzN8UEAIQBA</string>
+    <string name="achievement_played_25_times">CgkIv5GdzN8UEAIQBQ</string>
+    <string name="achievement_played_100_times">CgkIv5GdzN8UEAIQBg</string>
+    <string name="leaderboard_skor_tertinggi">CgkIv5GdzN8UEAIQAQ</string>
+</resources>

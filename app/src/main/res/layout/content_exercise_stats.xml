@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_exercise_stats"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/gplaypattern"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.alza.android.quiz.activity.ExerciseStatsActivity"
+    tools:showIn="@layout/activity_exercise_stats">
+
+    <LinearLayout
+        android:id="@+id/statslin"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="32dp"
+            android:text="Statistik Latihan Kamu"
+            android:layout_margin="@dimen/activity_vertical_margin"/>
+
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:rowCount="5"
+            android:orientation="horizontal"
+            android:useDefaultMargins="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="0"
+                android:textSize="@dimen/sub_caption_font_size"
+                android:text="Skor"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:textSize="@dimen/sub_caption_font_size"
+                android:text="Jumlah soal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="2"
+                android:textSize="@dimen/sub_caption_font_size"
+                android:text="Jumlah jawaban benar"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="3"
+                android:textSize="@dimen/sub_caption_font_size"
+                android:text="Total waktu latihan"/>
+            <TextView
+                android:id="@+id/exstat_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:textSize="@dimen/sub_caption_font_size"
+                android:text="Skor"/>
+            <TextView
+                android:id="@+id/exstat_totquiz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="1"
+                android:textSize="@dimen/sub_caption_font_size"
+                android:text="Total Soal"/>
+            <TextView
+                android:id="@+id/exstat_totcorrect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="2"
+                android:textSize="@dimen/sub_caption_font_size"
+                android:text="Total benar"/>
+            <TextView
+                android:id="@+id/exstat_tottime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="3"
+                android:textSize="@dimen/sub_caption_font_size"
+                android:text="Total waktu"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_row="3"
+                android:textSize="@dimen/sub_caption_font_size"
+                android:text="detik"/>
+            <TextView
+                android:id="@+id/exstat_newhiscore"
+                android:layout_column="2"
+                android:layout_row="0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rekor baru!"
+                android:visibility="invisible"
+                android:textColor="@color/pastelpink4"
+                />
+        </GridLayout>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/statstxtcap"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Detail hasil latihan"
+        android:textSize="@dimen/sub_caption_font_size"
+        android:layout_below="@+id/statslin"
+        android:textStyle="bold"/>
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/statslist"
+              android:layout_below="@+id/statstxtcap"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:layout_marginTop="@dimen/activity_vertical_margin">
+    </ListView>
+</RelativeLayout>

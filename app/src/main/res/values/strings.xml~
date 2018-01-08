@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Bilangan Romawi</string>
+    <string name="app_sharer_title">Alza Interactive - Bilangan Romawi</string>
+    <string name="app_url">https://play.google.com/store/apps/details?id=com.alza.quiz.romans</string>
+    <string name="app_sharer_desc">Belajar bilangan Romawi menggunakan aplikasi Cerdas Matematika seri
+        Bilangan Romawi dari Alza Interactive di https://play.google.com/store/apps/details?id=com.alza.quiz.romans</string>
+    <string name="action_settings">Settings</string>
+    <!-- Related to quiz direction -->
+    <string name="quiz_direction_title">Petunjuk</string>
+    <string name="quiz_direction_one">
+        Jawaban benar diberi tambahan nilai sesuai tingkat kesulitan soal.
+    </string>
+    <string name="quiz_direction_two">
+        Jawaban salah diberi penalti nilai sebesar 5 poin, kecuali jika poin tersisa lebih kecil dari 5.
+    </string>
+    <string name="quiz_direction_three">
+        Bonus poin diberikan jika jawaban benar dan waktu yang disediakan masih tersisa
+    </string>
+    <string name="quiz_direction_four">
+        Tingkatan soal dapat disesuaikan pada halaman konfigurasi
+    </string>
+    <string name="quiz_direction_button_start">
+        LANJUT
+    </string>
+    <!-- -->
+    <string name="contact_title">Anda membutuhkan bantuan?</string>
+    <string name="contact_list">Anda bisa menyampaikan pertanyaan, ide, dan saran melalui jalur komunikasi berikut:</string>
+    <string name="contact_email">Email to alza.interactive@gmail.com</string>
+    <string name="contact_facebook">Facebook page https://www.facebook.com/alzainteractive</string>
+    <string name="contact_twitter">Twitter : @alzasoft</string>
+
+    <string name="contribute_title">Mari Berkontribusi</string>
+    <string name="contribute_line_one">Untuk para developer, anda dapat berkontribusi langsung pada
+        https://github.com/AlzaInteractive/QuestionGenerator.SA</string>
+    <string name="contribute_line_two">Hubungi kami jika anda ingin berkontribusi dalam bentuk lain</string>
+    <string name="info_title">Informasi Aplikasi</string>
+    <string name="info_desc1"> Soal-soal pada aplikasi ini digenerate oleh sistem secara acak untuk mencegah anak menghapal jawaban.
+        </string>
+    <string name="info_desc3">Orang tua/guru : cek perkembangan pemahaman
+        anak/siswa pada menu penguasaan.
+        </string>
+    <string name="info_desc2">Sebagai tambahan motivasi, siswa dapat membandingkan skor yang ia peroleh dengan siswa lainnya.
+        Peringkat secara global maupun lokal dapat dilihat melalui aplikasi pada menu "Peringkat"
+        </string>
+
+    <string name="credit_title">Ucapan terima kasih kepada :</string>
+    <string name="credit_tester">Beta Testers : Deni, Aalia, Nisa, Algi, Galuh</string>
+    <string name="credit_animation_layouts">Layout animasi : http://www.androidhive.info/2013/06/android-working-with-xml-animations</string>
+    <string name="credit_sound_fx">Sound effect aplikasi : Bertrof, Autistic Lucario, Jobro from https://www.freesound.org/</string>
+    <string name="credit_artworks">Artworks:  Google play pattern from https://subtlepatterns.com</string>
+    <!-- Related to configs-->
+
+    <string-array name="list_kelas">
+        <item>Kelas 4</item>
+        <item>Kelas 5</item>
+        <item>Kelas 6</item>
+    </string-array>
+
+    <string-array name="list_kelas_values">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string name="ad_interstitial_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="game_services_client_id">712855996607</string>
+
+</resources>

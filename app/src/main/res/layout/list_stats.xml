@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_marginTop="@dimen/activity_vertical_margin"
+              android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/statscorrectpct"
+        android:layout_width="@dimen/stats_pct_width"
+        android:layout_height="@dimen/stats_pct_height"
+        android:text="100%"
+        android:textSize="@dimen/caption_font_size"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/button_roundcon"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="left"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        >
+        <TextView
+            android:id="@+id/stats_date_taken"
+            android:text="9 Feb 2017 08:50, waktu 254 detik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/stats_score"
+            android:text="Skor = 117, benar=13, total soal=41 "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</LinearLayout>

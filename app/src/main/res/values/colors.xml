@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorappbackground">#f06292</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorPrimary">#6783C2</color>
+    <color name="colorPrimaryDark">#0a4d74</color>
+    <color name="colorAccent">#9A6DB0</color>
+    <color name="colorErrorRed">#f44336</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="buttonBackground">#699cba</color>
+    <color name="buttonSubtle">#bbdbed</color>
+    <color name="pastelpink4">#F15F90</color>
+    <color name="pastelskyblue4">#70C3ED</color>
+    <color name="pastelvioletblue4">#6783C2</color>
+    <color name="pastelmauve4">#9A6DB0</color>
+    <color name="pastelyellow4">#F6ED60</color>
+    <color name="pastelgreen4">#8EC975</color>
+
+</resources>

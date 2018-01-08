@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/content_quiz"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:text="SOAL"
+        android:textSize="@dimen/caption_font_size"
+        />
+    <TextView
+        android:id = "@+id/soal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="redaksi soal muncul di bagian ini kucing manis pura-pura manis menunggu kacang goreng"
+        android:textSize="@dimen/sub_caption_font_size"
+        />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/caption_font_size"
+            android:text="Pilih Jawaban"/>
+        <com.google.android.flexbox.FlexboxLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/answerarea"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/spacing_medium"
+            app:flexWrap="wrap"
+            app:alignItems="stretch"
+            app:alignContent="stretch" >
+
+            <TextView
+                android:id="@+id/textview2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:layout_alignSelf="center"
+                />
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.alza.android.quiz.activity.QuizActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@drawable/gplaypattern"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="@dimen/quiz_top_bar"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/default_padding"
+            android:background="@color/colorappbackground">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/quizgrade"
+                android:text="KELAS 5"
+                android:textColor="@color/colorWhite"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/quizsubcateg"
+                android:text="Pecahan campuran, penambahan dan pengurangan"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/quizdifflevel"
+                android:text="MUDAH"
+                android:textColor="@color/colorWhite"
+                />
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <include layout="@layout/content_quiz" />
+        </ScrollView>
+        <LinearLayout
+            android:id="@+id/content_quiz_stat"
+            android:padding="@dimen/default_padding"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/quiz_bottom_bar"
+            android:background="@color/colorappbackground"
+            android:gravity="bottom">
+            <include layout="@layout/content_quiz_stat"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>
